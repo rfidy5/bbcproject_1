@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listcourses>
+  <course nomEssaiOrCourse="zerea" typeEssaiOrCourse="Essai">
+    <departAutomatique>false</departAutomatique>
+    <typeDeFin />
+    <heureDebut>Thu Jan 01 01:00:00 CET 1970</heureDebut>
+    <heureFin />
+    <nbToursMax>0</nbToursMax>
+    <dureeMaxPilotage>0.0</dureeMaxPilotage>
+    <dureeConsecutiveMaxPilotage>0.0</dureeConsecutiveMaxPilotage>
+    <commentaire />
+  </course>
+</listcourses>
