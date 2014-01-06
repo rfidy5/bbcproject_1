@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT evenement (course)+ >
-<!ELEMENT course (voiture) >
-
-<!ATTLIST evenement nomEvent CDATA #REQUIRED
-                   nomCircuitEvent    CDATA #IMPLIED
-                   longCircuitEvent CDATA #IMPLIED>
