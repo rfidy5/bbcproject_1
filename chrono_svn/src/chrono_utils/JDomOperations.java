@@ -23,9 +23,9 @@ import chrono_model.Voiture;
 
 public class JDomOperations {
 
-	public final static  String xmlDefaultPath="srcChrono\\chrono_xml\\listevents.xml";
-	public final static  String xmlTempPathListCourses="srcChrono\\chrono_xml\\listcourses.xml";
-	public final static  String xmlTempPathListVoitures="srcChrono\\chrono_xml\\listvoitures.xml";
+	public final static  String xmlDefaultPath="src\\chrono_xml\\listevents.xml";
+	public final static  String xmlTempPathListCourses="src\\chrono_xml\\listcourses.xml";
+	public final static  String xmlTempPathListVoitures="src\\chrono_xml\\listvoitures.xml";
 	public final static String defaultFilename="Chrono.xml";
 //	private static String filepath_event;
 	private static Element elementActuel_;
@@ -168,7 +168,7 @@ public class JDomOperations {
 					System.out.println(listVoitures.get(i).getName());
 				}
 				
-				System.out.println("chikldren azo");
+				System.out.println("children azo");
 				
 				// creation des elements listvoitures et listcourses
 				Element listVoituresElement=new Element("listvoitures");
